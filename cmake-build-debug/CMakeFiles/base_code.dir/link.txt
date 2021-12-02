@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -D_GLIBCXX_DEBUG CMakeFiles/base_code.dir/source/Action.cpp.o CMakeFiles/base_code.dir/source/main.cpp.o CMakeFiles/base_code.dir/source/Studio.cpp.o CMakeFiles/base_code.dir/source/Trainer.cpp.o CMakeFiles/base_code.dir/source/Workout.cpp.o CMakeFiles/base_code.dir/source/Customer.cpp.o -o base_code 
