@@ -1,7 +1,3 @@
-//
-// Created by spl211 on 29/11/2021.
-//
-
 #include <iostream>
 #include "../include/Workout.h"
 #include <sstream>
@@ -27,6 +23,12 @@ WorkoutType Workout::getType() const {
 }
 
 std::string Workout::toString() const{
+if(type ==0)
+    return "ANAEROBIC";
+else if (type==1)
+    return "MIXED";
+
+return "CARDIO";
 
 }
 

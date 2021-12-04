@@ -18,6 +18,7 @@ Trainer::Trainer(const Trainer &other):salary(other.salary), capacity(other.capa
 const Trainer& Trainer::operator=(const Trainer &other){
     if(this==&other)
         return *this;
+
     clear();
     salary = other.salary;
     capacity = other.capacity;
@@ -61,7 +62,7 @@ void Trainer::addCustomer(Customer* customer){
         customersList.push_back(customer);
 }
 
-void Trainer::removeCustomer(int id) {//CHECK THE IMPLEMENTATION
+void Trainer::removeCustomer(int id) {
     bool found = false;
     for (unsigned int i = 0; i < customersList.size() && !found; i = i + 1) {
         if (customersList[i]->getId() == id)

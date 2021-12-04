@@ -41,7 +41,7 @@ void makeCustomerList(std::string cusList, std::vector<Customer*>& CustomerListP
         customerId++;
     }
 }
-//gvbfg
+
 
 
 
@@ -117,6 +117,7 @@ void Studio::start() {
         std::size_t fRestore = act.find("restore");
         std::size_t fBackUp = act.find("backup");
         std::size_t fLog = act.find("log");
+        std::size_t fWork = act.find("workout");
         std::size_t fCloseALl = act.find("closeall");
 
         if (fOpen != std::string::npos) {
@@ -127,9 +128,9 @@ void Studio::start() {
             act = act.substr(sSpace + 1); ///making the act string only the customers to create a customer list from it.
             std::vector<Customer *> makeCus;
             makeCustomerList(act, makeCus, customerId);
-            OpenTrainer ot = OpenTrainer(std::stoi(trainerId), makeCus);
-            ot.act(*this);
-            int nextCustomerId = ot.getNextCustomerId();
+            OpenTrainer *ot = new OpenTrainer(std::stoi(trainerId), makeCus);
+            ot->act(*this);
+            int nextCustomerId = ot->getNextCustomerId();
             if (nextCustomerId != -1) ///checking for an empty opening
                 customerId = nextCustomerId;
             else
@@ -141,23 +142,23 @@ void Studio::start() {
                     makeCus[i] = nullptr;
                 }
             }
-            actionsLog.push_back(&ot);
+            actionsLog.push_back(ot);
         }
 
         else if (fClose != std::string::npos && act!="closeall") {
             int space = act.find(' ');
             int id= std::stoi(act.substr(space+1));
-            Close close1 = Close(id);
-            close1.act(*this);
-            actionsLog.push_back(&close1);
+            Close *close1 = new Close(id);
+            close1->act(*this);
+            actionsLog.push_back(close1);
         }
 
         else if (fStat != std::string::npos) {
             int fSpace = act.find(' ');
             std::string trainerId = act.substr(fSpace + 1);
-            PrintTrainerStatus pts = PrintTrainerStatus(std::stoi(trainerId));
-            pts.act(*this);
-            actionsLog.push_back(&pts);
+            PrintTrainerStatus *pts = new PrintTrainerStatus(std::stoi(trainerId));
+            pts->act(*this);
+            actionsLog.push_back(pts);
         }
 
         else if (fMove != std::string::npos) {
@@ -170,44 +171,52 @@ void Studio::start() {
             std::string dstId = act.substr(0, tSpace);
             act=act.substr(tSpace+1);
             std::string cusId = act.substr(0);
-            MoveCustomer moveCus = MoveCustomer(std::stoi(srcId), std::stoi(dstId), std::stoi(cusId));
-            moveCus.act(*this);
-            actionsLog.push_back(&moveCus);
+            MoveCustomer *moveCus = new MoveCustomer(std::stoi(srcId), std::stoi(dstId), std::stoi(cusId));
+            moveCus->act(*this);
+            actionsLog.push_back(moveCus);
         }
 
         else if (fOrder != std::string::npos) {
             int fSpace = act.find(' '); ///finding the first space so we can tell which trainer we need to open
             std::string trainerId = act.substr(fSpace + 1); //getting the number from the input
             int id = std::stoi(trainerId);
-            Order ord =Order(id);
-            ord.act(*this);
-            actionsLog.push_back(&ord);
+            Order *ord =new Order(id);
+            ord->act(*this);
+            actionsLog.push_back(ord);
         }
 
         else if (fRestore != std::string::npos) {
-            RestoreStudio rs = RestoreStudio();
-            rs.act(*this);
+            RestoreStudio *rs = new RestoreStudio();
+            rs->act(*this);
+            actionsLog.push_back(rs);
+
         }
 
         else if (fBackUp != std::string::npos) {
-            BackupStudio bu =  BackupStudio();
-            bu.act(*this);
-            actionsLog.push_back(&bu);
+            BackupStudio *bu =  new BackupStudio();
+            bu->act(*this);
+            actionsLog.push_back(bu);
 
         }
 
         else if (fLog != std::string::npos) {
-            PrintActionsLog pal = PrintActionsLog();
-            pal.act(*this);
-            actionsLog.push_back(&pal);
+            PrintActionsLog *pal = new PrintActionsLog();
+            pal->act(*this);
+            actionsLog.push_back(pal);
         }
 
         else if(fCloseALl!=std::string::npos){
-                CloseAll close =  CloseAll();
-                close.act(*this);
+                CloseAll *close = new CloseAll();
+                close->act(*this);
 //                delete this;
-        }
+            actionsLog.push_back(close);
 
+        }
+        else if(fWork!=std::string::npos){
+            PrintWorkoutOptions* wo = new PrintWorkoutOptions();
+            wo->act(*this);
+            actionsLog.push_back(wo);
+        }
     }while (act!="closeall");
 
 }

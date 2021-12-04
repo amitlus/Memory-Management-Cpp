@@ -22,6 +22,7 @@ public:
     virtual std::string toString() const=0;
     virtual ~BaseAction()=0;
     virtual BaseAction* clone() const=0;
+    std::string logStr; //Using in OpenTrainer, otherwise we can't restore the data of the arguments after we close the trainer session
 protected:
     void complete();
     void error(std::string errorMsg);
