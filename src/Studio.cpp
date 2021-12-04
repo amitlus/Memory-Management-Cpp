@@ -194,9 +194,8 @@ void Studio::start() {
 
         else if (fBackUp != std::string::npos) {
             BackupStudio *bu =  new BackupStudio();
-            bu->act(*this);
             actionsLog.push_back(bu);
-
+            bu->act(*this);
         }
 
         else if (fLog != std::string::npos) {
