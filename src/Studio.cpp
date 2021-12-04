@@ -102,18 +102,6 @@ Studio::Studio(const std::string &configFilePath): trainers(), workout_options()
 
 
 
-
-
-
-
-
-
-
-
-
-//fgdfg
-
-
 void Studio::start() {
     open = true;
     std::cout << "Studio is now open!" << std::endl;
@@ -215,9 +203,9 @@ void Studio::start() {
         }
 
         else if(fCloseALl!=std::string::npos){
-                CloseAll *close = new CloseAll();
-                close->act(*this);
-                delete this;
+                CloseAll close =  CloseAll();
+                close.act(*this);
+//                delete this;
         }
 
     }while (act!="closeall");
@@ -277,20 +265,20 @@ Studio::Studio(const Studio &other):open(other.open),numOfTrainers(other.numOfTr
 
 
 Studio::~Studio() {//destructor
-//    for(unsigned int i=0;i<trainers.size();i++) {
-//        if (trainers[i] != nullptr) {
-//            delete trainers[i];
-//            trainers[i] = nullptr;
-//        }
-//    }
+    for(unsigned int i=0;i<trainers.size();i++) {
+        if (trainers[i] != nullptr) {
+            delete trainers[i];
+            trainers[i] = nullptr;
+        }
+    }
     trainers.clear();
 
-//    for(unsigned int i=0;i<actionsLog.size();i++) {
-//        if (actionsLog[i] != nullptr) {
-//            delete actionsLog[i];
-//            actionsLog[i] = nullptr;
-//        }
-//    }
+    for(unsigned int i=0;i<actionsLog.size();i++) {
+        if (actionsLog[i] != nullptr) {
+            delete actionsLog[i];
+            actionsLog[i] = nullptr;
+        }
+    }
     actionsLog.clear();
 
     workout_options.clear();
@@ -302,25 +290,17 @@ Studio& Studio::operator=(const Studio &other){//copy assignment operator
         open = other.open;
         numOfTrainers = other.numOfTrainers;
 
-//        for(unsigned int i=0;i<trainers.size();i++) {
-//            if (trainers[i] != nullptr) {
-//                delete trainers[i];
-//                trainers[i] = nullptr;
-//            }
-//        }
+        for(unsigned int i=0;i<trainers.size();i++) {
+            if (trainers[i] != nullptr) {
+                delete trainers[i];
+                trainers[i] = nullptr;
+            }
+        }
         trainers.clear();
 
         for (unsigned int i = 0; i < other.trainers.size(); i++)
             trainers.push_back(new Trainer(*other.trainers[i]));
 
-        ///THE WORKOUT OPTION REMAINS THE SAME.
-
-//        for(unsigned int i=0;i<actionsLog.size();i++) {
-//            if (actionsLog[i] != nullptr) {
-//                delete actionsLog[i];
-//                actionsLog[i] = nullptr;
-//            }
-//        }
         actionsLog.clear();
 
         for (unsigned int i = 0; i < other.actionsLog.size(); i++)
@@ -330,24 +310,6 @@ Studio& Studio::operator=(const Studio &other){//copy assignment operator
 }
 
 Studio::Studio(Studio &&other):open(other.open),numOfTrainers(other.numOfTrainers),trainers(other.trainers),workout_options(other.workout_options),actionsLog(other.actionsLog){//move constructor
-//    other.open=false;
-//    other.numOfTrainers=0;
-//
-//    trainers=other.trainers;
-//    actionsLog=other.actionsLog;
-//
-//    trainers=std::move(other.trainers);
-//    actionsLog=std::move(other.actionsLog);
-
-
-//    for(unsigned int i=0;i<workout_options.size();i++){
-//        Workout wo1 = other.getWorkoutOptions()[i];
-//        Workout wo (wo1.getId(),wo1.getName(),wo1.getPrice(),wo1.getType());
-//        workout_options.push_back(wo);
-//    }
-
-//    other.workout_options.clear();
-
 }
 
 
@@ -355,20 +317,7 @@ Studio& Studio::operator=(Studio &&other){//move assignment operator
     open = other.open;
     numOfTrainers = other.numOfTrainers;
 
-//    for(unsigned int i=0;i<actionsLog.size();i++) {
-//        if (actionsLog[i] != nullptr) {
-//            delete actionsLog[i];
-//            actionsLog[i] = nullptr;
-//        }
-//    }
-    actionsLog.clear();
 
-//    for(unsigned int i=0;i<trainers.size();i++) {
-//        if (trainers[i] != nullptr) {
-//            delete trainers[i];
-//            trainers[i] = nullptr;
-//        }
-//    }
     trainers.clear();
 
     trainers = other.trainers;
@@ -376,30 +325,5 @@ Studio& Studio::operator=(Studio &&other){//move assignment operator
     actionsLog = other.actionsLog;
 
     return *this;
-
-
-    //    if(this==&other){
-//        return *this;
-//    }
-//    open=other.open;
-//    numOfTrainers=other.numOfTrainers;
-//
-//    other.numOfTrainers=0;
-//    other.open=false;
-//
-//    trainers=std::move(other.trainers);
-//    actionsLog=std::move(other.actionsLog);
-//
-//    for(unsigned int i=0;i<workout_options.size();i++){
-//        Workout wo1=other.getWorkoutOptions()[i];
-//        Workout wo (wo1.getId(),wo1.getName(),wo1.getPrice(),wo1.getType());
-//        workout_options.push_back(wo);
-//    }
-//
-//
-//
-//    other.workout_options.clear();
-//    ///workout_options=std::move(other.workout_options);
-
 
 }

@@ -13,10 +13,10 @@ add_executable(base_code
         include/Studio.h
         include/Trainer.h
         include/Workout.h
-        source/Action.cpp
-        source/main.cpp
-        source/Studio.cpp
-        source/Trainer.cpp
-        source/Workout.cpp
-        source/Customer.cpp
+        src/Action.cpp
+        src/main.cpp
+        src/Studio.cpp
+        src/Trainer.cpp
+        src/Workout.cpp
+        src/Customer.cpp
         )

@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/spl211/CLionProjects/base_code3-master/source/Action.cpp" "CMakeFiles/base_code.dir/source/Action.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/Action.cpp.o.d"
-  "/home/spl211/CLionProjects/base_code3-master/source/Customer.cpp" "CMakeFiles/base_code.dir/source/Customer.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/Customer.cpp.o.d"
-  "/home/spl211/CLionProjects/base_code3-master/source/Studio.cpp" "CMakeFiles/base_code.dir/source/Studio.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/Studio.cpp.o.d"
-  "/home/spl211/CLionProjects/base_code3-master/source/Trainer.cpp" "CMakeFiles/base_code.dir/source/Trainer.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/Trainer.cpp.o.d"
-  "/home/spl211/CLionProjects/base_code3-master/source/Workout.cpp" "CMakeFiles/base_code.dir/source/Workout.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/Workout.cpp.o.d"
-  "/home/spl211/CLionProjects/base_code3-master/source/main.cpp" "CMakeFiles/base_code.dir/source/main.cpp.o" "gcc" "CMakeFiles/base_code.dir/source/main.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/Action.cpp" "CMakeFiles/base_code.dir/src/Action.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/Action.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/Customer.cpp" "CMakeFiles/base_code.dir/src/Customer.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/Customer.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/Studio.cpp" "CMakeFiles/base_code.dir/src/Studio.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/Studio.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/Trainer.cpp" "CMakeFiles/base_code.dir/src/Trainer.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/Trainer.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/Workout.cpp" "CMakeFiles/base_code.dir/src/Workout.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/Workout.cpp.o.d"
+  "/home/spl211/CLionProjects/base_code3-master/src/main.cpp" "CMakeFiles/base_code.dir/src/main.cpp.o" "gcc" "CMakeFiles/base_code.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

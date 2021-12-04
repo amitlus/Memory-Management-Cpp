@@ -282,7 +282,7 @@ BaseAction* BackupStudio::clone() const{
 RestoreStudio::RestoreStudio():BaseAction(){}
 void RestoreStudio::act(Studio &studio){
     if(backup != nullptr){
-        studio = Studio(*backup);
+        studio = *backup;
         complete();
     }
     else

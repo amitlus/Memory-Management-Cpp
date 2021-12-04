@@ -103,22 +103,22 @@
 		<Unit filename="/home/spl211/CLionProjects/base_code3-master/include/Workout.h">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/Action.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/Action.cpp">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/Customer.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/Customer.cpp">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/Studio.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/Studio.cpp">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/Trainer.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/Trainer.cpp">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/Workout.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/Workout.cpp">
 			<Option target="base_code"/>
 		</Unit>
-		<Unit filename="/home/spl211/CLionProjects/base_code3-master/source/main.cpp">
+		<Unit filename="/home/spl211/CLionProjects/base_code3-master/src/main.cpp">
 			<Option target="base_code"/>
 		</Unit>
 		<Unit filename="/home/spl211/CLionProjects/base_code3-master/CMakeLists.txt">

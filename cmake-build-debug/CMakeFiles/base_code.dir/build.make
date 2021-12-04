@@ -69,108 +69,108 @@ include CMakeFiles/base_code.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/base_code.dir/flags.make
 
-CMakeFiles/base_code.dir/source/Action.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/Action.cpp.o: ../source/Action.cpp
-CMakeFiles/base_code.dir/source/Action.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_code.dir/source/Action.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/Action.cpp.o -MF CMakeFiles/base_code.dir/source/Action.cpp.o.d -o CMakeFiles/base_code.dir/source/Action.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/Action.cpp
+CMakeFiles/base_code.dir/src/Action.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/Action.cpp.o: ../src/Action.cpp
+CMakeFiles/base_code.dir/src/Action.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/base_code.dir/src/Action.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/Action.cpp.o -MF CMakeFiles/base_code.dir/src/Action.cpp.o.d -o CMakeFiles/base_code.dir/src/Action.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/Action.cpp
 
-CMakeFiles/base_code.dir/source/Action.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/Action.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/Action.cpp > CMakeFiles/base_code.dir/source/Action.cpp.i
+CMakeFiles/base_code.dir/src/Action.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/Action.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/Action.cpp > CMakeFiles/base_code.dir/src/Action.cpp.i
 
-CMakeFiles/base_code.dir/source/Action.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/Action.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/Action.cpp -o CMakeFiles/base_code.dir/source/Action.cpp.s
+CMakeFiles/base_code.dir/src/Action.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/Action.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/Action.cpp -o CMakeFiles/base_code.dir/src/Action.cpp.s
 
-CMakeFiles/base_code.dir/source/main.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/main.cpp.o: ../source/main.cpp
-CMakeFiles/base_code.dir/source/main.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_code.dir/source/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/main.cpp.o -MF CMakeFiles/base_code.dir/source/main.cpp.o.d -o CMakeFiles/base_code.dir/source/main.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/main.cpp
+CMakeFiles/base_code.dir/src/main.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/base_code.dir/src/main.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/base_code.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/main.cpp.o -MF CMakeFiles/base_code.dir/src/main.cpp.o.d -o CMakeFiles/base_code.dir/src/main.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/main.cpp
 
-CMakeFiles/base_code.dir/source/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/main.cpp > CMakeFiles/base_code.dir/source/main.cpp.i
+CMakeFiles/base_code.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/main.cpp > CMakeFiles/base_code.dir/src/main.cpp.i
 
-CMakeFiles/base_code.dir/source/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/main.cpp -o CMakeFiles/base_code.dir/source/main.cpp.s
+CMakeFiles/base_code.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/main.cpp -o CMakeFiles/base_code.dir/src/main.cpp.s
 
-CMakeFiles/base_code.dir/source/Studio.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/Studio.cpp.o: ../source/Studio.cpp
-CMakeFiles/base_code.dir/source/Studio.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_code.dir/source/Studio.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/Studio.cpp.o -MF CMakeFiles/base_code.dir/source/Studio.cpp.o.d -o CMakeFiles/base_code.dir/source/Studio.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/Studio.cpp
+CMakeFiles/base_code.dir/src/Studio.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/Studio.cpp.o: ../src/Studio.cpp
+CMakeFiles/base_code.dir/src/Studio.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/base_code.dir/src/Studio.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/Studio.cpp.o -MF CMakeFiles/base_code.dir/src/Studio.cpp.o.d -o CMakeFiles/base_code.dir/src/Studio.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/Studio.cpp
 
-CMakeFiles/base_code.dir/source/Studio.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/Studio.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/Studio.cpp > CMakeFiles/base_code.dir/source/Studio.cpp.i
+CMakeFiles/base_code.dir/src/Studio.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/Studio.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/Studio.cpp > CMakeFiles/base_code.dir/src/Studio.cpp.i
 
-CMakeFiles/base_code.dir/source/Studio.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/Studio.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/Studio.cpp -o CMakeFiles/base_code.dir/source/Studio.cpp.s
+CMakeFiles/base_code.dir/src/Studio.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/Studio.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/Studio.cpp -o CMakeFiles/base_code.dir/src/Studio.cpp.s
 
-CMakeFiles/base_code.dir/source/Trainer.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/Trainer.cpp.o: ../source/Trainer.cpp
-CMakeFiles/base_code.dir/source/Trainer.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_code.dir/source/Trainer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/Trainer.cpp.o -MF CMakeFiles/base_code.dir/source/Trainer.cpp.o.d -o CMakeFiles/base_code.dir/source/Trainer.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/Trainer.cpp
+CMakeFiles/base_code.dir/src/Trainer.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/Trainer.cpp.o: ../src/Trainer.cpp
+CMakeFiles/base_code.dir/src/Trainer.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/base_code.dir/src/Trainer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/Trainer.cpp.o -MF CMakeFiles/base_code.dir/src/Trainer.cpp.o.d -o CMakeFiles/base_code.dir/src/Trainer.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/Trainer.cpp
 
-CMakeFiles/base_code.dir/source/Trainer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/Trainer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/Trainer.cpp > CMakeFiles/base_code.dir/source/Trainer.cpp.i
+CMakeFiles/base_code.dir/src/Trainer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/Trainer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/Trainer.cpp > CMakeFiles/base_code.dir/src/Trainer.cpp.i
 
-CMakeFiles/base_code.dir/source/Trainer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/Trainer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/Trainer.cpp -o CMakeFiles/base_code.dir/source/Trainer.cpp.s
+CMakeFiles/base_code.dir/src/Trainer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/Trainer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/Trainer.cpp -o CMakeFiles/base_code.dir/src/Trainer.cpp.s
 
-CMakeFiles/base_code.dir/source/Workout.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/Workout.cpp.o: ../source/Workout.cpp
-CMakeFiles/base_code.dir/source/Workout.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_code.dir/source/Workout.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/Workout.cpp.o -MF CMakeFiles/base_code.dir/source/Workout.cpp.o.d -o CMakeFiles/base_code.dir/source/Workout.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/Workout.cpp
+CMakeFiles/base_code.dir/src/Workout.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/Workout.cpp.o: ../src/Workout.cpp
+CMakeFiles/base_code.dir/src/Workout.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_code.dir/src/Workout.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/Workout.cpp.o -MF CMakeFiles/base_code.dir/src/Workout.cpp.o.d -o CMakeFiles/base_code.dir/src/Workout.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/Workout.cpp
 
-CMakeFiles/base_code.dir/source/Workout.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/Workout.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/Workout.cpp > CMakeFiles/base_code.dir/source/Workout.cpp.i
+CMakeFiles/base_code.dir/src/Workout.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/Workout.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/Workout.cpp > CMakeFiles/base_code.dir/src/Workout.cpp.i
 
-CMakeFiles/base_code.dir/source/Workout.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/Workout.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/Workout.cpp -o CMakeFiles/base_code.dir/source/Workout.cpp.s
+CMakeFiles/base_code.dir/src/Workout.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/Workout.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/Workout.cpp -o CMakeFiles/base_code.dir/src/Workout.cpp.s
 
-CMakeFiles/base_code.dir/source/Customer.cpp.o: CMakeFiles/base_code.dir/flags.make
-CMakeFiles/base_code.dir/source/Customer.cpp.o: ../source/Customer.cpp
-CMakeFiles/base_code.dir/source/Customer.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_code.dir/source/Customer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/source/Customer.cpp.o -MF CMakeFiles/base_code.dir/source/Customer.cpp.o.d -o CMakeFiles/base_code.dir/source/Customer.cpp.o -c /home/spl211/CLionProjects/base_code3-master/source/Customer.cpp
+CMakeFiles/base_code.dir/src/Customer.cpp.o: CMakeFiles/base_code.dir/flags.make
+CMakeFiles/base_code.dir/src/Customer.cpp.o: ../src/Customer.cpp
+CMakeFiles/base_code.dir/src/Customer.cpp.o: CMakeFiles/base_code.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/base_code.dir/src/Customer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_code.dir/src/Customer.cpp.o -MF CMakeFiles/base_code.dir/src/Customer.cpp.o.d -o CMakeFiles/base_code.dir/src/Customer.cpp.o -c /home/spl211/CLionProjects/base_code3-master/src/Customer.cpp
 
-CMakeFiles/base_code.dir/source/Customer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/source/Customer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/source/Customer.cpp > CMakeFiles/base_code.dir/source/Customer.cpp.i
+CMakeFiles/base_code.dir/src/Customer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_code.dir/src/Customer.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/spl211/CLionProjects/base_code3-master/src/Customer.cpp > CMakeFiles/base_code.dir/src/Customer.cpp.i
 
-CMakeFiles/base_code.dir/source/Customer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/source/Customer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/source/Customer.cpp -o CMakeFiles/base_code.dir/source/Customer.cpp.s
+CMakeFiles/base_code.dir/src/Customer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_code.dir/src/Customer.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/spl211/CLionProjects/base_code3-master/src/Customer.cpp -o CMakeFiles/base_code.dir/src/Customer.cpp.s
 
 # Object files for target base_code
 base_code_OBJECTS = \
-"CMakeFiles/base_code.dir/source/Action.cpp.o" \
-"CMakeFiles/base_code.dir/source/main.cpp.o" \
-"CMakeFiles/base_code.dir/source/Studio.cpp.o" \
-"CMakeFiles/base_code.dir/source/Trainer.cpp.o" \
-"CMakeFiles/base_code.dir/source/Workout.cpp.o" \
-"CMakeFiles/base_code.dir/source/Customer.cpp.o"
+"CMakeFiles/base_code.dir/src/Action.cpp.o" \
+"CMakeFiles/base_code.dir/src/main.cpp.o" \
+"CMakeFiles/base_code.dir/src/Studio.cpp.o" \
+"CMakeFiles/base_code.dir/src/Trainer.cpp.o" \
+"CMakeFiles/base_code.dir/src/Workout.cpp.o" \
+"CMakeFiles/base_code.dir/src/Customer.cpp.o"
 
 # External object files for target base_code
 base_code_EXTERNAL_OBJECTS =
 
-base_code: CMakeFiles/base_code.dir/source/Action.cpp.o
-base_code: CMakeFiles/base_code.dir/source/main.cpp.o
-base_code: CMakeFiles/base_code.dir/source/Studio.cpp.o
-base_code: CMakeFiles/base_code.dir/source/Trainer.cpp.o
-base_code: CMakeFiles/base_code.dir/source/Workout.cpp.o
-base_code: CMakeFiles/base_code.dir/source/Customer.cpp.o
+base_code: CMakeFiles/base_code.dir/src/Action.cpp.o
+base_code: CMakeFiles/base_code.dir/src/main.cpp.o
+base_code: CMakeFiles/base_code.dir/src/Studio.cpp.o
+base_code: CMakeFiles/base_code.dir/src/Trainer.cpp.o
+base_code: CMakeFiles/base_code.dir/src/Workout.cpp.o
+base_code: CMakeFiles/base_code.dir/src/Customer.cpp.o
 base_code: CMakeFiles/base_code.dir/build.make
 base_code: CMakeFiles/base_code.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable base_code"

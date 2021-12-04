@@ -227,6 +227,15 @@ ProcessorCount_cmd_nproc:FILEPATH=/usr/bin/nproc
 ProcessorCount_cmd_sysctl:FILEPATH=/sbin/sysctl
 
 //Value Computed by CMake
+base_code3_BINARY_DIR:STATIC=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug
+
+//Value Computed by CMake
+base_code3_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+base_code3_SOURCE_DIR:STATIC=/home/spl211/CLionProjects/base_code3-master
+
+//Value Computed by CMake
 base_code_BINARY_DIR:STATIC=/home/spl211/CLionProjects/base_code3-master/cmake-build-debug
 
 //Value Computed by CMake
